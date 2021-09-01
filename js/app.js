@@ -54,13 +54,15 @@ class Calculator {
                 console.log('invalid operation')
         }
 
+        computation = (Math.round(computation * 1000) / 1000)
+
         this.currentOperand = computation
         this.operation = undefined
         this.previousOperand = ''
     }
 
     getDisplayNumber (number) {
-        const stringNum = number.toString()
+        const stringNum = (Math.round(number * 100000) / 100000).toString()
         const intDigits = parseFloat(stringNum.split('.')[0])
         const decimalDigits = stringNum.split('.')[1]
 

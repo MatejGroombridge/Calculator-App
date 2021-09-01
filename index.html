@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Calculator</h1>
+    </div>
+    <!-- <nav class="nav-links">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contribute</a></li>
+      </ul>
+    </nav> -->
+  </header>
+
+  <section class="wrapper">
+    <div class="background">
+      <div class="screen">
+        <h2 data-previous-operand></h2>
+        <h2 data-current-operand class="left"></h2>
+      </div>
+      <div class="buttons">
+        <button data-number class="btn">0</button>
+        <button data-delete class="btn special-btn del">DEL</button>
+        <button data-clear class="btn special-btn clears">AC</button>
+        <button data-number class="btn">9</button>
+        <button data-number class="btn">8</button>
+        <button data-number class="btn active-btn">7</button>
+        <button data-number class="btn">6</button>
+        <button data-number class="btn">5</button>
+        <button data-number class="btn">4</button>
+        <button data-number class="btn">3</button>
+        <button data-number class="btn">2</button>
+        <button data-number class="btn">1</button>
+        <button data-number class="btn special-btn">(</button>
+        <button data-operation class="btn special-btn">x</button>
+        <button data-operation class="btn special-btn">+</button>
+        <button data-number class="btn special-btn">)</button>
+        <button data-operation class="btn special-btn">÷</button>
+        <button data-operation class="btn special-btn">-</button>
+        <button class="btn special-btn">YOLO</button>
+        <button data-number class="btn special-btn">.</button>
+        <button data-equals class="btn special-btn">=</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="empty"> Coded by Matej Groombridge, 2021 </div> -->
+
+  <script src="js/app.js"></script>
+</body>
+</html>

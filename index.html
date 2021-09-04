@@ -9,25 +9,29 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <div class="logo">
-      <h1>Calculator</h1>
+      <a href="./index.html"><h1>Calculator</h1></a>
     </div>
-    <!-- <nav class="nav-links">
+    <a href="#" class="toggle-btn">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <nav class="nav-links">
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contribute</a></li>
+        <li><a href="./about.html">About</a></li>
       </ul>
-    </nav> -->
+    </nav>
   </header>
 
-  <section class="wrapper">
+  <section id="wrapper">
     <div class="background">
-      <div class="screen">
+      <div class="screen card">
         <h2 data-previous-operand></h2>
         <h2 data-current-operand class="left"></h2>
       </div>
-      <div class="buttons">
+      <div class="buttons card">
         <button data-number class="btn">0</button>
         <button data-delete class="btn special-btn del">DEL</button>
         <button data-clear class="btn special-btn clears">AC</button>
@@ -41,9 +45,9 @@
         <button data-number class="btn">2</button>
         <button data-number class="btn">1</button>
         <!-- <button data-number class="btn special-btn">(</button> -->
-        <button data-number class="btn special-btn">.</button>
         <button data-operation class="btn special-btn">x</button>
         <button data-operation class="btn special-btn">+</button>
+        <button data-number class="btn special-btn">.</button>
         <!-- <button data-number class="btn special-btn">)</button> -->
         <button data-operation class="btn special-btn">÷</button>
         <button data-operation class="btn special-btn">-</button>
@@ -52,8 +56,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <div class="empty"> Coded by Matej Groombridge, 2021 </div> -->
 
   <script src="js/app.js"></script>
 </body>

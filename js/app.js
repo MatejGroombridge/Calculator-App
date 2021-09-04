@@ -98,6 +98,10 @@ const deleteBtn = document.querySelector('[data-delete]')
 const clearBtn = document.querySelector('[data-clear]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
+const toggleBtn = document.getElementsByClassName('toggle-btn')[0]
+const navLinks = document.getElementsByClassName('nav-links')[0]
+const header = document.getElementById('header')
+const wrapper = document.getElementById('wrapper')
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
@@ -128,4 +132,10 @@ clearBtn.addEventListener('click', () => {
 deleteBtn.addEventListener('click', () => {
     calculator.delete()
     calculator.updateDisplay()
+})
+
+toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle("active")
+    header.classList.toggle("active")
+    wrapper.classList.toggle("active")
 })

@@ -1,7 +1,7 @@
 @import "./variables";
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   font-family: "Poppins", monospace;
   color: var(--highlight);
@@ -20,7 +20,6 @@ h3 {
 
 p {
   font-size: 14px;
-  // color: var(--medium-dark);
   color: var(--dark);
 }
 
@@ -86,5 +85,23 @@ select {
 
   h3 {
     color: var(--primary);
+  }
+}
+
+.toggle-btn {
+  position: absolute;
+  top: auto;
+  right: 2em;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+
+  .bar {
+    height: 3px;
+    width: 100%;
+    background: var(--highlight);
+    border-radius: 10px;
   }
 }

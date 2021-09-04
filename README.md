@@ -1,6 +1,6 @@
-# Frontend Mentor - Tip calculator app solution
+# Responsive Calculator App
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A simple responsive calculator application. Built with HTML, SCSS and Javascript. Intended to cement the information I leart from the Tip Calculator App project.
 
 ## Table of contents
 
@@ -11,24 +11,20 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./images/screenshot.png)
 
 ### Link
 
-Solution URL: [Click Here](https://matejgroombridge.github.io/Tip-Calculator-App/)
+URL: [Click Here](https://matejgroombridge.github.io/Calculator-App/)
 
 ### Built with
 
 - HTML5
 - SCSS
 - Javascript
-- Desktop First Workflow
-- I used this video for help with the Javascript: https://www.youtube.com/watch?v=MkHR2PAsy3I&t=152s
+- Mobile First Workflow
 
 ### Project Takeaways
 
-- Learnt how to use Javascript in a website project
-- Learnt DOM Manipulation
-- Learnt how to use Media Queries in CSS
-- Better understanding of CSS and Javascript
-- More problem solving skills gained
+- Better understanding of Javascript and interacting with the DOM
+- Better workflow - Mobile first
